@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Security fitlerchain"
+title: "Spring Security filterchain"
 categories: Spring Security
 toc: true
 author_profile: false
