@@ -37,9 +37,9 @@ docs:
       - title: "Architecture" 
         url: /categories/#Architecture
       - title: "Spring" 
-        url: /categories/#Spring
+        url: /categories/#spring
       - title: "Spring Security" 
-        url: /categories/#Security
+        url: /categories/#security
       - title: "네트워크" 
         url: /categories/#네트워크
 
