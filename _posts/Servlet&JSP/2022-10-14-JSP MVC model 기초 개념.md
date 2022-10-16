@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "간단한 Stream 사용서"
-categories: JAVA
+categories: Servlet&JSP
 author_profile: false
 sidebar:
     nav: "docs"

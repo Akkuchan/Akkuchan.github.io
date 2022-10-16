@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Service Loader의 개념 이해하기!"
+categories: 네트워크
 toc: true
 author_profile: false
 sidebar:

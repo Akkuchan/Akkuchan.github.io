@@ -37,14 +37,14 @@ docs:
         url: /categories/#HTTP
         
       - title: "Architecture" 
-        url: /categories/#Architecture
+        url: /categories/#architecture
 
       - title: "Spring" 
         url: /categories/#spring
 
       - title: "Spring Security" 
         url: /categories/#security
-        
+
       - title: "네트워크" 
         url: /categories/#네트워크
 
