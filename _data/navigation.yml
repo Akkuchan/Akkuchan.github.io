@@ -39,7 +39,7 @@ docs:
       - title: "Spring" 
         url: /categories/#Spring
       - title: "Spring Security" 
-        url: /categories/#Spring
+        url: /categories/#Security
       - title: "네트워크" 
         url: /categories/#네트워크
 
