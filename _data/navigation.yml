@@ -20,12 +20,25 @@ main:
 docs:
   - title: "프로그래밍"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag" 
-        url: /tag/ 
+      # - title: "Category"
+      #   url: /categories/
+      # - title: "Tag" 
+      #   url: /tags/ 
       - title: "Java" 
         url: /categories/#java 
+      - title: "Servlet&JSP" 
+      url: /categories/#Servlet&JSP 
+      - title: "Servlet&JSP" 
+      url: /categories/#Servlet&JSP 
+      - title: "Amazon_Web_Service" 
+      url: /categories/#Amazon_Web_Service
+      - title: "HTTP" 
+      url: /categories/#HTTP
+      - title: "Architecture" 
+      url: /categories/#Architecture
+      - title: "Spring" 
+      url: /categories/#Spring
+
 
   - title: "일상"
     children:
