@@ -23,7 +23,9 @@ docs:
       - title: "Category"
         url: /categories/
       - title: "Tag" 
-        url: /tags/ 
+        url: /tag/ 
+      - title: "Java" 
+        url: /categories/#java 
 
   - title: "일상"
     children:
