@@ -48,11 +48,13 @@ docs:
       - title: "네트워크" 
         url: /categories/#네트워크
 
+      - title: "React" 
+        url: /categories/#React
+
+
 
 
   - title: "일상"
     children:
       - title: "Life"
         url: /life/
-
-        

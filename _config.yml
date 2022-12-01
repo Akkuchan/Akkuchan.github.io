@@ -22,13 +22,13 @@ title_separator          : "|"
 subtitle                 : "오늘보다 나은 내일을 위한 발자취" # site tagline that appears below site title in masthead
 name                     : "Akkuchan"
 description              : "오늘보다 나은 내일을 위한 발자취"
-url                      : "https://Akkuchan.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+url                      : "https://Akkuchan.github.io"  # 기본 호스트 네임 주소
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+repository               : # "Akkuchan/Akkuchan.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : /assets/images/teaser_test.jpg  # path of fallback teaser image, 각 포스트에 설정될 디폴트(fallback) 이미지 설정
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:    # 댓글관련 설정
   provider               :  "disqus"  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -130,6 +130,9 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+
+
+
 # Site Footer
 footer:
   links:
@@ -219,7 +222,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 6 # amount of posts to show
+paginate: 6 # amount of posts to show on homepage 홈페이지에 띄울 게시물 수 설정
 paginate_path: /page:num/
 timezone: Asia/Seoul  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -252,7 +255,7 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: page
   path: /categories/
 tag_archive:
   type: liquid
@@ -287,10 +290,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: true # 해당 포스트를 읽은 시간이 표시되는데 기본값은 true이다.
       comments: true
-      share: true
+      share: true # 포스트 공유 기능을 활성화 할 것인지 정한다. 기본값은 true이다.
       related: true
       show_date : true # 각 포스트를 올릴 때마다 작성일이 추가되는 설정, 날짜 형식 변경도 가능
-
 date_format: "%Y-%m-%d" # 날짜 형식 변경
+
