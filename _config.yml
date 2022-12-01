@@ -22,7 +22,7 @@ title_separator          : "|"
 subtitle                 : "오늘보다 나은 내일을 위한 발자취" # site tagline that appears below site title in masthead
 name                     : "Akkuchan"
 description              : "오늘보다 나은 내일을 위한 발자취"
-url                      : "https://Akkuchan.github.io"  # 기본 호스트 네임 주소
+url                      : "https://Akkuchan.github.io/"  # 기본 호스트 네임 주소
 baseurl                  : "/blog/" # the subpath of your site, e.g. "/blog"
 repository               : # "Akkuchan/Akkuchan.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/teaser_test.jpg  # path of fallback teaser image, 각 포스트에 설정될 디폴트(fallback) 이미지 설정
