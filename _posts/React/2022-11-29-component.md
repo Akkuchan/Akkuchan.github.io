@@ -26,6 +26,7 @@ function Welcome(props) {
 - 말 그대로 인풋(props)을 받아 아웃풋(element)를 반환하는 메서드로서의 역할을 하는 컴포넌트이다.
 
 - 이러한 코드를 ES6 Class라는 형태로도 만들 수 있다.
+
 ```javascript
 class Welcome extends React.Component {
   render() {
